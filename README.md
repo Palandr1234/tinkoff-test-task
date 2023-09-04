@@ -25,4 +25,25 @@
 * Если при обучении задать неверный класс объекта или не задать его вовсе, то результаты ухудшаются с точки зрения соотвествия заданному объекту и текстовому запросу
 
 ## Практическая часть
-![Ссылка на ggogle colab](https://colab.research.google.com/drive/13IqCGhO70RyaBnzGfwSHN4L2SDAEg_bH?usp=sharing)
+[Ссылка на ggogle colab](https://colab.research.google.com/drive/13IqCGhO70RyaBnzGfwSHN4L2SDAEg_bH?usp=sharing)
+
+### Тренировочные изображения
+![](shiina/1.png) ![](shiina/3.jpg)  ![](shiina/2.jpg) ![](shiina/4.jpg) ![](shiina/5.jpeg)
+
+### Результаты
+* GUIDANCE = 7.5, LORA_SCALE_TEXT_ENCODER = 0.8, LORA_SCALE_UNET = 0.8
+  1) "an image of [ktn] girl eating ice cream"
+  ![](shiina/icecream1.png) ![](shiina/icecream3.png)  ![](shiina/icecream2.png)
+  2) "an image of [ktn] girl on the moon"
+  ![](shiina/moon1.png) ![](shiina/moon3.png)  ![](shiina/moon2.png)
+  3) "an image of [ktn] girl in the acropolis"
+  ![](shiina/acropolis1.png) ![](shiina/acropolis3.png)  ![](shiina/acropolis2.png)
+* GUIDANCE = 15, LORA_SCALE_TEXT_ENCODER = 0.8, LORA_SCALE_UNET = 0.8
+  1) "an image of [ktn] girl eating ice cream"
+  ![](shiina/icecream1.png) ![](shiina/icecream3.png)  ![](shiina/icecream2.png)
+  2) "an image of [ktn] girl on the moon"
+  ![](shiina/moon4.png) ![](shiina/moon5.png)  ![](shiina/moon6.png)
+  3) "an image of [ktn] girl in the acropolis"
+  ![](shiina/acropolis4.png) ![](shiina/acropolis5.png)  ![](shiina/acropolis6.png)
+
+### Выводы
