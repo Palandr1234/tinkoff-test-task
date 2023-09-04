@@ -45,7 +45,14 @@
   ![](shiina/moon4.png) ![](shiina/moon5.png)  ![](shiina/moon6.png)
   3) "an image of [ktn] girl in the acropolis"
   ![](shiina/acropolis4.png) ![](shiina/acropolis5.png)  ![](shiina/acropolis6.png)
+* GUIDANCE = 1.5, LORA_SCALE_TEXT_ENCODER = 0.8, LORA_SCALE_UNET = 0.8
+  1) "an image of [ktn] girl eating ice cream"
+  ![](shiina/icecream7.png) ![](shiina/icecream8.png)  ![](shiina/icecream9.png)
+  2) "an image of [ktn] girl on the moon"
+  ![](shiina/moon7.png) ![](shiina/moon8.png)  ![](shiina/moon9.png)
+  3) "an image of [ktn] girl in the acropolis"
+  ![](shiina/acropolis7.png) ![](shiina/acropolis8.png)  ![](shiina/acropolis9.png)
 
 ### Выводы
 * Несмотря на проблемы с качеством изображений, девушка на сгенерированных изображениях соответствуют девушке из тренировочного сета
-* GUIDANCE_SCALE влияет на разнообразие сгенерированных изображений и на их соответствие текстовому запросу. Чем выше данный параметр, тем сгенерированные изображения более соответствуют текстовому запросу, однако при этом уменьшается разнообразие сгенерированных изображений
+* GUIDANCE_SCALE влияет на разнообразие сгенерированных изображений и на их соответствие текстовому запросу и тренировочным изображениям. Чем выше данный параметр, тем сгенерированные изображения более соответствуют текстовому запросу, однако при этом уменьшается разнообразие сгенерированных изображений. При низком GUIDANCE_SCALE результаты более разнообразные, но мало соответствуют тренировочным изображениям и текстовому запросу
