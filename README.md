@@ -40,7 +40,7 @@
   ![](shiina/acropolis1.png) ![](shiina/acropolis3.png)  ![](shiina/acropolis2.png)
 * GUIDANCE = 15, LORA_SCALE_TEXT_ENCODER = 0.8, LORA_SCALE_UNET = 0.8
   1) "an image of [ktn] girl eating ice cream"
-  ![](shiina/icecream1.png) ![](shiina/icecream3.png)  ![](shiina/icecream2.png)
+  ![](shiina/icecream4.png) ![](shiina/icecream5.png)  ![](shiina/icecream6.png)
   2) "an image of [ktn] girl on the moon"
   ![](shiina/moon4.png) ![](shiina/moon5.png)  ![](shiina/moon6.png)
   3) "an image of [ktn] girl in the acropolis"
